@@ -1,8 +1,7 @@
 import express, { Request, Response, NextFunction} from 'express'
 import { json } from 'body-parser'
 
-import todoRoutes from './todos'
-import exp from 'constants'
+import todoRoutes from './routes/todos'
 
 const app = express()
 
